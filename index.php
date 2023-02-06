@@ -28,6 +28,18 @@
          mix-blend-mode: overlay;
       }
 
+      .block-images.position-relative {
+    min-width: 280px;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+}
+
+.block-images.position-relative {
+    min-width: 280px;
+    max-width: 300px;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+}
 
       .img-box {
          border-radius: 10px;
@@ -39,16 +51,18 @@
          padding: 2px;
       }
 
-      .block-images.position-relative {
-         width: 291px;
-         margin-left: 20px !important;
-         margin-top: 20px !important;
-      }
    </style>
 </head>
 
 <body>
+   <?php
+      $apiKey = 'AIzaSyDDIKdq6srL6usxujr7mxxtvnUl5uWvsUU';
+      $videoIds = array('v_bkUR9PSKg', 'a4UojzZTZOc', 'up-oXFqPzt4','1WbJpvdpSp4','J0L4Y5Xa1Sg','WulFJwj8A');
 
+      $videoIdsString = implode(',', $videoIds);
+      $videoData = file_get_contents("https://www.googleapis.com/youtube/v3/videos?id=$videoIdsString&key=$apiKey&part=snippet");
+      $videoData = json_decode($videoData);
+   ?>
    <!-- Header -->
    <header id="main-header">
       <div class="main-header">
@@ -96,132 +110,29 @@
                <div class="col-md-12">
                   <h5 class="text-uppercase">Category Name</h5>
                </div>
-               <div class="block-images position-relative ">
-                  <div class="img-box" style="background:#c4b8b847">
-                     <img
-                        src="http://admin.fitdrama.testdemolink.com/storage/app/public/movies/thumbnails/3_1673292215.jpg"
-                        alt="" loading="lazy">
-                  </div>
-                  <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
-                     <div class="badge">10:00</div>
-                  </div>
-               </div>
+               <?php
 
-               <div class="block-images position-relative ">
-                  <div class="img-box" style="background:#c4b8b847">
-                     <img
-                        src="http://admin.fitdrama.testdemolink.com/storage/app/public/movies/thumbnails/17_1673291636.jpg"
-                        alt="" loading="lazy">
-                  </div>
-                  <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
-                     <div class="badge">10:00</div>
-                  </div>
-               </div>
+                  foreach ($videoData->items as $video) {
+                     $videoTitle = $video->snippet->title;
+                     $videoThumbnail = $video->snippet->thumbnails->high->url;
+                     $description = $video->snippet->description;
 
-               <div class="block-images position-relative ">
-                  <div class="img-box" style="background:#c4b8b847">
-                     <img
-                        src="http://admin.fitdrama.testdemolink.com/storage/app/public/movies/thumbnails/15_1673291545.jpg"
-                        alt="" loading="lazy">
-                  </div>
-                  <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
-                     <div class="badge">10:00</div>
-                  </div>
-               </div>
+                     echo '
+                           <div class="block-images position-relative ">
+                              <div class="img-box" style="background:#c4b8b847">
+                                 <img
+                                    src="'.$videoThumbnail.'"
+                                    alt="" loading="lazy">
+                              </div>
+                              <div class="block-description pt-5">
+                                 <h6 class="iq-title"><a href="video-detail.php">'.$videoTitle.'</a></h6>
+                                 <div class="badge">10:00</div>
+                              </div>
+                           </div>
+                     ';
 
-               <div class="block-images position-relative ">
-                  <div class="img-box" style="background:#c4b8b847">
-                     <img
-                        src="http://admin.fitdrama.testdemolink.com/storage/app/public/movies/thumbnails/12_1673291302.jpg"
-                        alt="" loading="lazy">
-                  </div>
-                  <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
-                     <div class="badge">10:00</div>
-                  </div>
-               </div>
-
-               <div class="block-images position-relative ">
-                  <div class="img-box" style="background:#c4b8b847">
-                     <img
-                        src="http://admin.fitdrama.testdemolink.com/storage/app/public/movies/thumbnails/17_1673291636.jpg"
-                        alt="" loading="lazy">
-                  </div>
-                  <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
-                     <div class="badge">10:00</div>
-                  </div>
-               </div>
-
-               <div class="block-images position-relative ">
-                  <div class="img-box" style="background:#c4b8b847">
-                     <img
-                        src="http://admin.fitdrama.testdemolink.com/storage/app/public/movies/thumbnails/3_1673292215.jpg"
-                        alt="" loading="lazy">
-                  </div>
-                  <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
-                     <div class="badge">10:00</div>
-                  </div>
-               </div>
-
-            </div>
-
-            <div class="row p-5">
-               <div class="col-md-12">
-                  <h5 class="text-uppercase">Category Name</h5>
-               </div>
-               <div class="block-images position-relative ">
-                  <div class="img-box" style="background:#c4b8b847">
-                     <img
-                        src="http://admin.fitdrama.testdemolink.com/storage/app/public/movies/thumbnails/3_1673292215.jpg"
-                        alt="" loading="lazy">
-                  </div>
-                  <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
-                     <div class="badge">10:00</div>
-                  </div>
-               </div>
-
-               <div class="block-images position-relative ">
-                  <div class="img-box" style="background:#c4b8b847">
-                     <img
-                        src="http://admin.fitdrama.testdemolink.com/storage/app/public/movies/thumbnails/3_1673292215.jpg"
-                        alt="" loading="lazy">
-                  </div>
-                  <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
-                     <div class="badge">10:00</div>
-                  </div>
-               </div>
-
-               <div class="block-images position-relative ">
-                  <div class="img-box" style="background:#c4b8b847">
-                     <img
-                        src="http://admin.fitdrama.testdemolink.com/storage/app/public/movies/thumbnails/3_1673292215.jpg"
-                        alt="" loading="lazy">
-                  </div>
-                  <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
-                     <div class="badge">10:00</div>
-                  </div>
-               </div>
-
-               <div class="block-images position-relative ">
-                  <div class="img-box" style="background:#c4b8b847">
-                     <img
-                        src="http://admin.fitdrama.testdemolink.com/storage/app/public/movies/thumbnails/3_1673292215.jpg"
-                        alt="" loading="lazy">
-                  </div>
-                  <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
-                     <div class="badge">10:00</div>
-                  </div>
-               </div>
-
+                  }
+               ?>
 
             </div>
 
