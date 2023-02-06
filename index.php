@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-US">
 
-<!-- Mirrored from templates.iqonic.design/Eric Egana/frontend/html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Nov 2022 13:53:02 GMT -->
+<!-- Mirrored from templates.iqonic.design/Eric Egana/frontend/html/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Nov 2022 13:53:02 GMT -->
 
 <head>
    <!-- Required meta tags -->
@@ -65,7 +65,7 @@
                            <span class="navbar-menu-icon navbar-menu-icon--bottom"></span>
                         </div>
                      </a>
-                     <a class="navbar-brand text-uppercase text-danger" href="index.html">Your Logo</a>
+                     <a class="navbar-brand text-uppercase text-danger" href="index.php">Your Logo</a>
                      <div class="mobile-more-menu">
                         <a href="javascript:void(0);" class="more-toggle" id="dropdownMenuButton"
                            data-toggle="more-toggle" aria-haspopup="true" aria-expanded="false">
@@ -103,7 +103,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -115,7 +115,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -127,7 +127,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -139,7 +139,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -151,7 +151,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -163,7 +163,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -181,7 +181,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -193,7 +193,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -205,7 +205,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -217,7 +217,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -236,7 +236,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -248,7 +248,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -260,7 +260,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -272,7 +272,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -284,7 +284,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -296,7 +296,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -308,7 +308,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -320,7 +320,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -331,7 +331,7 @@
                         alt="" loading="lazy">
                   </div>
                   <div class="block-description pt-5">
-                     <h6 class="iq-title"><a href="video-detail.html">Stranger Things</a></h6>
+                     <h6 class="iq-title"><a href="video-detail.php">Stranger Things</a></h6>
                      <div class="badge">10:00</div>
                   </div>
                </div>
@@ -356,15 +356,15 @@
                            </li>
                            <li id="menu-item-7316"
                               class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7316">
-                              <a href="privacy-policy.html">Privacy-Policy</a>
+                              <a href="privacy-policy.php">Privacy-Policy</a>
                            </li>
                            <li id="menu-item-701"
                               class="menu-item menu-item-type-post_type menu-item-object-page menu-item-701">
-                              <a href="faq.html">FAQ</a>
+                              <a href="faq.php">FAQ</a>
                            </li>
                            <li id="menu-item-7118"
                               class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7118">
-                              <a href="watch-video.html">Watch List</a>
+                              <a href="watch-video.php">Watch List</a>
                            </li>
                         </ul>
                      </div>
@@ -437,6 +437,6 @@
    <script src="js/swiper.js"></script>
 </body>
 
-<!-- Mirrored from templates.iqonic.design/Eric Egana/frontend/html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Nov 2022 13:53:37 GMT -->
+<!-- Mirrored from templates.iqonic.design/Eric Egana/frontend/html/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Nov 2022 13:53:37 GMT -->
 
 </html>

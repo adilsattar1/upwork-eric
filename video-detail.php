@@ -67,7 +67,7 @@
                            <span class="navbar-menu-icon navbar-menu-icon--bottom"></span>
                         </div>
                      </a>
-                     <a class="navbar-brand text-uppercase text-danger" href="index.html">Your Logo</a>
+                     <a class="navbar-brand text-uppercase text-danger" href="index.php">Your Logo</a>
                      <div class="mobile-more-menu">
                         <a href="javascript:void(0);" class="more-toggle" id="dropdownMenuButton"
                            data-toggle="more-toggle" aria-haspopup="true" aria-expanded="false">
@@ -176,6 +176,6 @@
    <script src="js/swiper.js"></script>
 </body>
 
-<!-- Mirrored from templates.iqonic.design/Eric Egana/frontend/html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Nov 2022 13:53:37 GMT -->
+<!-- Mirrored from templates.iqonic.design/Eric Egana/frontend/html/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Nov 2022 13:53:37 GMT -->
 
 </html>
